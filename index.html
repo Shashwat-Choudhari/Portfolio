@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@300&family=Mogra&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="person-circle.svg" height="30"> Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../One-page layout/index.html">One Page layout</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Quiz app/index.html">Quiz App</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../To-do list/index.html">To Do list</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">"Who Am I"</h1>
+          <p class="lead">Hello Folks! I am "Shashwat Choudhari". I am a web developer and a student pursuing B-Tech in Computer Science and Engineering at National Institute of Technology, Durgapur. I am also a member of Center for Cognititve Activities club which is the largest technical club of NIT Durgapur.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"></div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="Shashwat-2-copy.jpg" alt="" width="720">
+        </div>
+    </div>
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Here are some of my projects</h1>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('One-page\ copy.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">One-Page Layout</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <a href="../One-page layout/index.html"><img src="eye-fill.svg" alt="See" width="32" height="32" ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('To\ Do\ list\ copy.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"  style="color: black;">To-Do List</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <a href="../To-do list/index.html"><img src="eye-fill.svg" alt="See" width="32" height="32" ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('Quiz\ copy.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: black;">Quiz</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <a href="../Quiz app/index.html"><img src="eye-fill.svg" alt="See" width="32" height="32" ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Organizations</h1>
+      </div>
+  </div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="NIT Durgapur.png" alt="" width="120" height="90">
+    <h1 class="display-5 fw-bold text-body-emphasis" style="font-size: 40px;">NIT DURGAPUR</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">National Institute of Technology Durgapur, formerly known as Regional Engineering College, Durgapur, is a public technical university in the city of Durgapur in West Bengal, India. Founded in 1960, it is one of India's oldest technical universities. It is located on a campus of 187 acres.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://nitdgp.ac.in/"><button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="n3zte">NIT Durgapur</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="CCA.png" alt="" width="120" height="90">
+    <h1 class="display-5 fw-bold text-body-emphasis" style="font-size: 40px;">Center for Cognititve Activities</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">CCA, Centre for Cognitive Activities, the largest and oldest technical club of NIT Durgapur, is the focal point where the convergence of all technical and scientific endeavors of the students materializes. Founded in 2003, this club aims to enhance the technical and managerial skills of the students from the beginning. Intending to bridge the gap between knowledge and application, CCA organizes diverse events covering the various domains throughout the year that stimulate the gray cells of the students, thereby proving to be an asset to them.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://www.ccanitd.in/"><button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="n3zte">CCA</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="AAROHAN.jpeg" alt="" width="120" height="90">
+    <h1 class="display-5 fw-bold text-body-emphasis" style="font-size: 40px;">AAROHAN</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Aarohan is the Annual Techno-Management fest of NIT Durgapur, the 2nd Largest of its kind in the whole of eastern India. Started in the year 2003, it has been leading the light of instilling a culture of science, technology and innovation among the youth of the nation. With more than 40 events covering all genres of technology and management, Aarohan brings some of the best solutions for mankind to the fore. Numerous workshops and lectures are organised, thus introducing the students to new vistas in the field of technology.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://arhn.co.in/"><button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="n3zte">AAROHAN</button></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/__IamShashi__"><img src="twitter.svg" alt="Twitter" height="24" width="24"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/__shashwat03__/?hl=en"><img src="instagram.svg" alt="Instagram" height="24" width="24"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/shashwat-choudhari-006aa9238/"><img src="linkedin.svg" alt="LinkedIn" height="24" width="24"></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    
+
+    
+
+
+
+      
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
